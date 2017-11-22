@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height = "wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@drawable/imagehere"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/QuestionTitleTheme"
+                android:id="@+id/ques1Title"
+                android:text="@string/question1title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question1"
+                android:id="@+id/ques1"
+                style="@style/QuestionTheme"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="(Answer Here)"
+                android:inputType="number"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/answer1"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/QuestionTitleTheme"
+                android:id="@+id/ques2Title"
+                android:text="@string/question2title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2"
+                android:id="@+id/ques2"
+                style="@style/QuestionTheme"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox1option"
+                android:id="@+id/answer21"
+                style="@style/CheckBoxTheme"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox2option"
+                android:id="@+id/answer22"
+                style="@style/CheckBoxTheme"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox3option"
+                android:id="@+id/answer23"
+                style="@style/CheckBoxTheme"/>
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkBox4option"
+                android:id="@+id/answer24"
+                style="@style/CheckBoxTheme"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/QuestionTitleTheme"
+                android:id="@+id/ques3Title"
+                android:text="@string/question3title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3"
+                android:id="@+id/ques3"
+                style="@style/QuestionTheme"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio1option"
+                    android:id="@+id/answer31"
+                    style="@style/CheckBoxTheme" />
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/radio2option"
+                    android:id="@+id/answer32"
+                    style="@style/CheckBoxTheme"/>
+
+            </RadioGroup>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/QuestionTitleTheme"
+                android:id="@+id/ques4Title"
+                android:text="@string/question4title"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question4"
+                android:id="@+id/ques4"
+                style="@style/QuestionTheme"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/hh"
+                android:id="@+id/logo"
+                android:layout_marginBottom="20dp"/>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="(Answer Here)"
+                android:id="@+id/answer4"
+                android:layout_marginBottom="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Submit"
+                android:layout_marginBottom="50dp"
+                android:id="@+id/submitButton"
+                android:onClick="checkAnswer"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

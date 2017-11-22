@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question1title">Question 1</string>
+    <string name="question2title">Question 2</string>
+    <string name="question3title">Question 3</string>
+    <string name="question4title">Question 4</string>
+
+
+    <string name="question1">State the Year in which India got Indepedence from British Rule?</string>
+    <string name="question2">Check all the Country who have atleast once won a ICC Cricket World cup?</string>
+    <string name="question3">Who was the author of "Five Point Someone"?</string>
+    <string name="question4">Name the Company for which the symbol belongs to?</string>
+
+
+    <string name="checkBox1option">India</string>
+    <string name="checkBox2option">Australia</string>
+    <string name="checkBox3option">Sri lanka</string>
+    <string name="checkBox4option">Kenya</string>
+
+
+    <string name="radio1option">Chetan Bhagat</string>
+    <string name="radio2option">Khuswant Singh</string>
+
+
+
+
+</resources>
